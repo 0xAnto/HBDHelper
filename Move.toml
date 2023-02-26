@@ -1,0 +1,9 @@
+[package]
+name = 'birthday-bot'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+[addresses]
+anto = "0xae8699a1788d18e44ca23923cc65ed7c3d1cb9c4d37d91fbab94254006009a79"
